@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/bin/Debug/net6.0/OperacaoAritimetica
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/bin/Debug/net6.0/OperacaoAritimetica.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/bin/Debug/net6.0/OperacaoAritimetica.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/bin/Debug/net6.0/OperacaoAritimetica.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/bin/Debug/net6.0/ref/OperacaoAritimetica.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/bin/Debug/net6.0/OperacaoAritimetica.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/obj/Debug/net6.0/OperacaoAritimetica.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/obj/Debug/net6.0/OperacaoAritimetica.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/obj/Debug/net6.0/OperacaoAritimetica.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/obj/Debug/net6.0/OperacaoAritimetica.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/obj/Debug/net6.0/OperacaoAritimetica.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/obj/Debug/net6.0/OperacaoAritimetica.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/obj/Debug/net6.0/ref/OperacaoAritimetica.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/obj/Debug/net6.0/OperacaoAritimetica.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/secao_02/aula_01/OperacaoAritimetica/obj/Debug/net6.0/OperacaoAritimetica.genruntimeconfig.cache

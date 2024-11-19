@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/bin/Debug/net6.0/EstruturaRepeticao
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/bin/Debug/net6.0/EstruturaRepeticao.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/bin/Debug/net6.0/EstruturaRepeticao.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/bin/Debug/net6.0/EstruturaRepeticao.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/bin/Debug/net6.0/ref/EstruturaRepeticao.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/bin/Debug/net6.0/EstruturaRepeticao.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/obj/Debug/net6.0/EstruturaRepeticao.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/obj/Debug/net6.0/EstruturaRepeticao.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/obj/Debug/net6.0/EstruturaRepeticao.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/obj/Debug/net6.0/EstruturaRepeticao.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/obj/Debug/net6.0/EstruturaRepeticao.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/obj/Debug/net6.0/EstruturaRepeticao.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/obj/Debug/net6.0/ref/EstruturaRepeticao.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/obj/Debug/net6.0/EstruturaRepeticao.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/secao_02/aula_02/EstruturaRepeticao/obj/Debug/net6.0/EstruturaRepeticao.genruntimeconfig.cache

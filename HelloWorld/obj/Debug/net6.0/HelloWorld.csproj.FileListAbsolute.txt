@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/bin/Debug/net6.0/HelloWorld
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/bin/Debug/net6.0/HelloWorld.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/bin/Debug/net6.0/HelloWorld.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/bin/Debug/net6.0/HelloWorld.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/bin/Debug/net6.0/ref/HelloWorld.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/bin/Debug/net6.0/HelloWorld.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/obj/Debug/net6.0/ref/HelloWorld.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/HelloWorld/obj/Debug/net6.0/HelloWorld.genruntimeconfig.cache
