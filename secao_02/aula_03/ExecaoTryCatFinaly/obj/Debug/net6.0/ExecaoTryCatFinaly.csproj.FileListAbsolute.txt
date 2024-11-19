@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/bin/Debug/net6.0/ExecaoTryCatFinaly
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/bin/Debug/net6.0/ExecaoTryCatFinaly.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/bin/Debug/net6.0/ExecaoTryCatFinaly.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/bin/Debug/net6.0/ExecaoTryCatFinaly.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/bin/Debug/net6.0/ref/ExecaoTryCatFinaly.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/bin/Debug/net6.0/ExecaoTryCatFinaly.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/obj/Debug/net6.0/ExecaoTryCatFinaly.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/obj/Debug/net6.0/ExecaoTryCatFinaly.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/obj/Debug/net6.0/ExecaoTryCatFinaly.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/obj/Debug/net6.0/ExecaoTryCatFinaly.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/obj/Debug/net6.0/ExecaoTryCatFinaly.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/obj/Debug/net6.0/ExecaoTryCatFinaly.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/obj/Debug/net6.0/ref/ExecaoTryCatFinaly.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/obj/Debug/net6.0/ExecaoTryCatFinaly.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/ExecaoTryCatFinaly/obj/Debug/net6.0/ExecaoTryCatFinaly.genruntimeconfig.cache
