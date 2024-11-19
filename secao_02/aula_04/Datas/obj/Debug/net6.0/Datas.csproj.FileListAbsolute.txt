@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/bin/Debug/net6.0/Datas
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/bin/Debug/net6.0/Datas.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/bin/Debug/net6.0/Datas.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/bin/Debug/net6.0/Datas.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/bin/Debug/net6.0/ref/Datas.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/bin/Debug/net6.0/Datas.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/obj/Debug/net6.0/Datas.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/obj/Debug/net6.0/Datas.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/obj/Debug/net6.0/Datas.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/obj/Debug/net6.0/Datas.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/obj/Debug/net6.0/Datas.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/obj/Debug/net6.0/Datas.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/obj/Debug/net6.0/ref/Datas.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/obj/Debug/net6.0/Datas.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/Datas/obj/Debug/net6.0/Datas.genruntimeconfig.cache
