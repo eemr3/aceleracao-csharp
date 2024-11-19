@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/bin/Debug/net6.0/FuncaoComRetorno
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/bin/Debug/net6.0/FuncaoComRetorno.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/bin/Debug/net6.0/FuncaoComRetorno.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/bin/Debug/net6.0/FuncaoComRetorno.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/bin/Debug/net6.0/ref/FuncaoComRetorno.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/bin/Debug/net6.0/FuncaoComRetorno.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/obj/Debug/net6.0/FuncaoComRetorno.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/obj/Debug/net6.0/FuncaoComRetorno.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/obj/Debug/net6.0/FuncaoComRetorno.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/obj/Debug/net6.0/FuncaoComRetorno.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/obj/Debug/net6.0/FuncaoComRetorno.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/obj/Debug/net6.0/FuncaoComRetorno.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/obj/Debug/net6.0/ref/FuncaoComRetorno.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/obj/Debug/net6.0/FuncaoComRetorno.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_03/FuncaoComRetorno/obj/Debug/net6.0/FuncaoComRetorno.genruntimeconfig.cache
