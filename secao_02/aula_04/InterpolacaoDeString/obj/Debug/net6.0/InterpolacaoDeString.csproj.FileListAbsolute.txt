@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/bin/Debug/net6.0/InterpolacaoDeString
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/bin/Debug/net6.0/InterpolacaoDeString.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/bin/Debug/net6.0/InterpolacaoDeString.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/bin/Debug/net6.0/InterpolacaoDeString.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/bin/Debug/net6.0/ref/InterpolacaoDeString.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/bin/Debug/net6.0/InterpolacaoDeString.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/obj/Debug/net6.0/InterpolacaoDeString.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/obj/Debug/net6.0/InterpolacaoDeString.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/obj/Debug/net6.0/InterpolacaoDeString.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/obj/Debug/net6.0/InterpolacaoDeString.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/obj/Debug/net6.0/InterpolacaoDeString.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/obj/Debug/net6.0/InterpolacaoDeString.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/obj/Debug/net6.0/ref/InterpolacaoDeString.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/obj/Debug/net6.0/InterpolacaoDeString.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/InterpolacaoDeString/obj/Debug/net6.0/InterpolacaoDeString.genruntimeconfig.cache
