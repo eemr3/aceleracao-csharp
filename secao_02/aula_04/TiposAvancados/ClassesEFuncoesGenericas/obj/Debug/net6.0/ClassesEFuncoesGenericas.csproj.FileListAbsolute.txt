@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/bin/Debug/net6.0/ClassesEFuncoesGenericas
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/bin/Debug/net6.0/ClassesEFuncoesGenericas.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/bin/Debug/net6.0/ClassesEFuncoesGenericas.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/bin/Debug/net6.0/ClassesEFuncoesGenericas.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/bin/Debug/net6.0/ref/ClassesEFuncoesGenericas.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/bin/Debug/net6.0/ClassesEFuncoesGenericas.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/obj/Debug/net6.0/ClassesEFuncoesGenericas.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/obj/Debug/net6.0/ClassesEFuncoesGenericas.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/obj/Debug/net6.0/ClassesEFuncoesGenericas.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/obj/Debug/net6.0/ClassesEFuncoesGenericas.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/obj/Debug/net6.0/ClassesEFuncoesGenericas.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/obj/Debug/net6.0/ClassesEFuncoesGenericas.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/obj/Debug/net6.0/ref/ClassesEFuncoesGenericas.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/obj/Debug/net6.0/ClassesEFuncoesGenericas.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/TiposAvancados/ClassesEFuncoesGenericas/obj/Debug/net6.0/ClassesEFuncoesGenericas.genruntimeconfig.cache
