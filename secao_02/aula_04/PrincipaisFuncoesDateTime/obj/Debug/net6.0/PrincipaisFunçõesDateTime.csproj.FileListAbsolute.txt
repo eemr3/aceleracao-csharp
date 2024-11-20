@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/bin/Debug/net6.0/PrincipaisFunçõesDateTime
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/bin/Debug/net6.0/PrincipaisFunçõesDateTime.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/bin/Debug/net6.0/PrincipaisFunçõesDateTime.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/bin/Debug/net6.0/PrincipaisFunçõesDateTime.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/bin/Debug/net6.0/ref/PrincipaisFunçõesDateTime.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/bin/Debug/net6.0/PrincipaisFunçõesDateTime.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/obj/Debug/net6.0/PrincipaisFunçõesDateTime.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/obj/Debug/net6.0/PrincipaisFunçõesDateTime.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/obj/Debug/net6.0/PrincipaisFunçõesDateTime.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/obj/Debug/net6.0/PrincipaisFunçõesDateTime.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/obj/Debug/net6.0/PrincipaisFunçõesDateTime.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/obj/Debug/net6.0/PrincipaisFunçõesDateTime.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/obj/Debug/net6.0/ref/PrincipaisFunçõesDateTime.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/obj/Debug/net6.0/PrincipaisFunçõesDateTime.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/PrincipaisFunçõesDateTime/obj/Debug/net6.0/PrincipaisFunçõesDateTime.genruntimeconfig.cache
