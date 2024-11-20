@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/bin/Debug/net6.0/ToDoList
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/bin/Debug/net6.0/ToDoList.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/bin/Debug/net6.0/ToDoList.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/bin/Debug/net6.0/ToDoList.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/bin/Debug/net6.0/ref/ToDoList.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/bin/Debug/net6.0/ToDoList.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/obj/Debug/net6.0/ToDoList.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/obj/Debug/net6.0/ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/obj/Debug/net6.0/ToDoList.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/obj/Debug/net6.0/ToDoList.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/obj/Debug/net6.0/ToDoList.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/obj/Debug/net6.0/ToDoList.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/obj/Debug/net6.0/ref/ToDoList.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/obj/Debug/net6.0/ToDoList.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_02/aula_04/aula_ao_vivo/ToDoList/obj/Debug/net6.0/ToDoList.genruntimeconfig.cache
