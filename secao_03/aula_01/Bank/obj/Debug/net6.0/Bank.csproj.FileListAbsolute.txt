@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/bin/Debug/net6.0/Bank
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/bin/Debug/net6.0/Bank.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/bin/Debug/net6.0/Bank.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/bin/Debug/net6.0/Bank.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/bin/Debug/net6.0/ref/Bank.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/bin/Debug/net6.0/Bank.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/obj/Debug/net6.0/Bank.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/obj/Debug/net6.0/Bank.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/obj/Debug/net6.0/Bank.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/obj/Debug/net6.0/Bank.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/obj/Debug/net6.0/Bank.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/obj/Debug/net6.0/Bank.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/obj/Debug/net6.0/ref/Bank.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/obj/Debug/net6.0/Bank.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_01/Bank/obj/Debug/net6.0/Bank.genruntimeconfig.cache
