@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/bin/Debug/net6.0/Airline
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/bin/Debug/net6.0/Airline.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/bin/Debug/net6.0/Airline.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/bin/Debug/net6.0/Airline.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/bin/Debug/net6.0/ref/Airline.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/bin/Debug/net6.0/Airline.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/obj/Debug/net6.0/Airline.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/obj/Debug/net6.0/Airline.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/obj/Debug/net6.0/Airline.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/obj/Debug/net6.0/Airline.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/obj/Debug/net6.0/Airline.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/obj/Debug/net6.0/Airline.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/obj/Debug/net6.0/ref/Airline.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/obj/Debug/net6.0/Airline.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_03/aula_02/Airline/obj/Debug/net6.0/Airline.genruntimeconfig.cache
