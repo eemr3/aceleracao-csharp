@@ -58,5 +58,34 @@ public class IntegrationTest : IClassFixture<WebApplicationFactory<Program>>
     Assert.Equal(personMoq[0].PersonEmail, jsonResponse[0].PersonEmail);
     Assert.Equal(personMoq[0].PersonPhone, jsonResponse[0].PersonPhone);
   }
+
+  [Theory(DisplayName = "Testando a rota /POST Person")]
+  [InlineData("/person")]
+  public async Task TestCreatePerson(string url)
+  {
+    // Arrange
+    Person personMoq = new Person { PersonId = 3, PersonName = "Rebeca", PersonEmail = "rebeca@betrybe.com", PersonPhone = "5511977777777" };
+    mockService.Setup(s => s.addPerson(It.IsAny<Person>())).Returns(personMoq);
+
+    // Act
+    var inputObject = new
+    {
+      PersonName = "Rebeca",
+      PersonEmail = "rebeca@betrybe.com",
+      PersonPhone = "5511977777777"
+    };
+
+    var response = await _clientTest.PostAsync(url, new StringContent(JsonConvert.SerializeObject(inputObject), System.Text.Encoding.UTF8, "application/json"));
+    var responseString = await response.Content.ReadAsStringAsync();
+    Person jsonResponse = JsonConvert.DeserializeObject<Person>(responseString)!;
+
+    // Assert
+    Assert.Equal(System.Net.HttpStatusCode.Created, response.StatusCode);
+    Assert.Equal(personMoq.PersonId, jsonResponse.PersonId);
+    Assert.Equal(personMoq.PersonName, jsonResponse.PersonName);
+    Assert.Equal(personMoq.PersonEmail, jsonResponse.PersonEmail);
+    Assert.Equal(personMoq.PersonPhone, jsonResponse.PersonPhone);
+
+  }
 }
 
