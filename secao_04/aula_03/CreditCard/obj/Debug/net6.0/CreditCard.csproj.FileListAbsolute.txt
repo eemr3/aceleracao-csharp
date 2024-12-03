@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/bin/Debug/net6.0/CreditCard
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/bin/Debug/net6.0/CreditCard.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/bin/Debug/net6.0/CreditCard.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/bin/Debug/net6.0/CreditCard.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/bin/Debug/net6.0/ref/CreditCard.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/bin/Debug/net6.0/CreditCard.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/obj/Debug/net6.0/CreditCard.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/obj/Debug/net6.0/CreditCard.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/obj/Debug/net6.0/CreditCard.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/obj/Debug/net6.0/CreditCard.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/obj/Debug/net6.0/CreditCard.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/obj/Debug/net6.0/CreditCard.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/obj/Debug/net6.0/ref/CreditCard.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/obj/Debug/net6.0/CreditCard.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_04/aula_03/CreditCard/obj/Debug/net6.0/CreditCard.genruntimeconfig.cache
