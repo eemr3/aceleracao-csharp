@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiDocSwagger</name>
+    </assembly>
+    <members>
+        <member name="M:ApiDocSwagger.Controllers.WeatherForecastController.Get">
+            <summary>
+            Lista os itens do objeto WeatherForecast.
+            </summary>
+            <returns>Os itens do objeto WeatherForecast</returns>
+            <response code="200">Retorna os itens do objeto WeatherForecast</response>
+        </member>
+    </members>
+</doc>

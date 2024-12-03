@@ -18,6 +18,11 @@ public class WeatherForecastController : ControllerBase
         _logger = logger;
     }
 
+    /// <summary>
+    /// Lista os itens do objeto WeatherForecast.
+    /// </summary>
+    /// <returns>Os itens do objeto WeatherForecast</returns>
+    /// <response code="200">Retorna os itens do objeto WeatherForecast</response>
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
