@@ -7,17 +7,21 @@ class Program
 
     // Trabalhando o LINQ "Language-Integrated Query"
     var books = new List<Book>(){
-      new Book("The Count of Monte Cristo", 39, 2002),
-      new Book("Brave new World ", 32, 1932),
-      new Book("The Hobbit", 35, 2011),
-      new Book("Pan's Labyrinth: The Labyrinth of the Faun", 25, 2019),
-      new Book("Throne of Glass", 29, 2013)
+      new Book("Capitães da Areia", 39, 1937, 2),
+      new Book("Água Viva", 32, 1973, 1),
+      new Book("A hora da Estrela", 35, 1977, 1),
+      new Book("Cacau", 25, 1933, 2),
     };
 
-    var booksBefre2000 = from book in books where book.PublishYear < 2000 select book.Title;
+    var authors = new List<Author>(){
+      new Author(1, "Clarice Lispector"),
+      new Author(2, "Jorge Amado")
+    };
 
-    Console.WriteLine($"Livro(s) lançado(s) antes do ano 2000:");
-    foreach (var book in booksBefre2000)
+    var booksBefre1970 = from book in books where book.PublishYear < 1970 select book.Title;
+
+    Console.WriteLine($"Livro(s) lançado(s) antes do ano 1970:");
+    foreach (var book in booksBefre1970)
     {
       Console.WriteLine(book);
     }
@@ -31,5 +35,19 @@ class Program
     {
       Console.WriteLine(book);
     }
+
+    Console.WriteLine("-------------");
+
+    var bookDto = from book in books
+                  from author in authors
+                  where book.AuthorId == author.Id
+                  orderby author.Name
+                  select new BookDTO(book.Title!, author.Name!);
+
+    foreach (var book in bookDto)
+    {
+      Console.WriteLine($"{book.BookNane} - {book.AuthorName}");
+    }
   }
+
 }
