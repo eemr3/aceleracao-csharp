@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/bin/Debug/net6.0/MyLinq
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/bin/Debug/net6.0/MyLinq.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/bin/Debug/net6.0/MyLinq.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/bin/Debug/net6.0/MyLinq.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/bin/Debug/net6.0/ref/MyLinq.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/bin/Debug/net6.0/MyLinq.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/obj/Debug/net6.0/MyLinq.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/obj/Debug/net6.0/MyLinq.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/obj/Debug/net6.0/MyLinq.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/obj/Debug/net6.0/MyLinq.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/obj/Debug/net6.0/MyLinq.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/obj/Debug/net6.0/MyLinq.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/obj/Debug/net6.0/ref/MyLinq.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/obj/Debug/net6.0/MyLinq.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/MyLinq/obj/Debug/net6.0/MyLinq.genruntimeconfig.cache

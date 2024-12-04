@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/bin/Debug/net6.0/RecordMusic
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/bin/Debug/net6.0/RecordMusic.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/bin/Debug/net6.0/RecordMusic.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/bin/Debug/net6.0/RecordMusic.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/bin/Debug/net6.0/ref/RecordMusic.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/bin/Debug/net6.0/RecordMusic.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/obj/Debug/net6.0/RecordMusic.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/obj/Debug/net6.0/RecordMusic.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/obj/Debug/net6.0/RecordMusic.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/obj/Debug/net6.0/RecordMusic.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/obj/Debug/net6.0/RecordMusic.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/obj/Debug/net6.0/RecordMusic.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/obj/Debug/net6.0/ref/RecordMusic.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/obj/Debug/net6.0/RecordMusic.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/RecordMusic/obj/Debug/net6.0/RecordMusic.genruntimeconfig.cache

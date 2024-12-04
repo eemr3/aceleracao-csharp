@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/bin/Debug/net6.0/Bookstore
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/bin/Debug/net6.0/Bookstore.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/bin/Debug/net6.0/Bookstore.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/bin/Debug/net6.0/Bookstore.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/bin/Debug/net6.0/ref/Bookstore.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/bin/Debug/net6.0/Bookstore.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/obj/Debug/net6.0/Bookstore.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/obj/Debug/net6.0/Bookstore.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/obj/Debug/net6.0/Bookstore.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/obj/Debug/net6.0/Bookstore.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/obj/Debug/net6.0/Bookstore.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/obj/Debug/net6.0/Bookstore.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/obj/Debug/net6.0/ref/Bookstore.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/obj/Debug/net6.0/Bookstore.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/Bookstore/obj/Debug/net6.0/Bookstore.genruntimeconfig.cache
