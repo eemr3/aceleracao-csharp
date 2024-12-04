@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/bin/Debug/net6.0/FootballGame
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/bin/Debug/net6.0/FootballGame.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/bin/Debug/net6.0/FootballGame.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/bin/Debug/net6.0/FootballGame.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/bin/Debug/net6.0/ref/FootballGame.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/bin/Debug/net6.0/FootballGame.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/obj/Debug/net6.0/FootballGame.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/obj/Debug/net6.0/FootballGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/obj/Debug/net6.0/FootballGame.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/obj/Debug/net6.0/FootballGame.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/obj/Debug/net6.0/FootballGame.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/obj/Debug/net6.0/FootballGame.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/obj/Debug/net6.0/ref/FootballGame.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/obj/Debug/net6.0/FootballGame.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_01/FootballGame/obj/Debug/net6.0/FootballGame.genruntimeconfig.cache
