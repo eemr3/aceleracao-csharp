@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/bin/Debug/net6.0/NestedQueriesGrouping
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/bin/Debug/net6.0/NestedQueriesGrouping.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/bin/Debug/net6.0/NestedQueriesGrouping.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/bin/Debug/net6.0/NestedQueriesGrouping.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/bin/Debug/net6.0/ref/NestedQueriesGrouping.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/bin/Debug/net6.0/NestedQueriesGrouping.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/obj/Debug/net6.0/NestedQueriesGrouping.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/obj/Debug/net6.0/NestedQueriesGrouping.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/obj/Debug/net6.0/NestedQueriesGrouping.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/obj/Debug/net6.0/NestedQueriesGrouping.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/obj/Debug/net6.0/NestedQueriesGrouping.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/obj/Debug/net6.0/NestedQueriesGrouping.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/obj/Debug/net6.0/ref/NestedQueriesGrouping.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/obj/Debug/net6.0/NestedQueriesGrouping.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/NestedQueries/NestedQueriesGrouping/obj/Debug/net6.0/NestedQueriesGrouping.genruntimeconfig.cache
