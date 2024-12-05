@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/bin/Debug/net6.0/LambdaExpressions
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/bin/Debug/net6.0/LambdaExpressions.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/bin/Debug/net6.0/LambdaExpressions.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/bin/Debug/net6.0/LambdaExpressions.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/bin/Debug/net6.0/ref/LambdaExpressions.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/bin/Debug/net6.0/LambdaExpressions.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/obj/Debug/net6.0/LambdaExpressions.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/obj/Debug/net6.0/LambdaExpressions.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/obj/Debug/net6.0/LambdaExpressions.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/obj/Debug/net6.0/LambdaExpressions.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/obj/Debug/net6.0/LambdaExpressions.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/obj/Debug/net6.0/LambdaExpressions.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/obj/Debug/net6.0/ref/LambdaExpressions.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/obj/Debug/net6.0/LambdaExpressions.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/LambdaExpressions/obj/Debug/net6.0/LambdaExpressions.genruntimeconfig.cache
