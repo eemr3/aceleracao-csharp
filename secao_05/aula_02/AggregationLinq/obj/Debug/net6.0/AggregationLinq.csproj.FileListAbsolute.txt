@@ -1,0 +1,15 @@
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/bin/Debug/net6.0/AggregationLinq
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/bin/Debug/net6.0/AggregationLinq.deps.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/bin/Debug/net6.0/AggregationLinq.runtimeconfig.json
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/bin/Debug/net6.0/AggregationLinq.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/bin/Debug/net6.0/ref/AggregationLinq.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/bin/Debug/net6.0/AggregationLinq.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/obj/Debug/net6.0/AggregationLinq.csproj.AssemblyReference.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/obj/Debug/net6.0/AggregationLinq.GeneratedMSBuildEditorConfig.editorconfig
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/obj/Debug/net6.0/AggregationLinq.AssemblyInfoInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/obj/Debug/net6.0/AggregationLinq.AssemblyInfo.cs
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/obj/Debug/net6.0/AggregationLinq.csproj.CoreCompileInputs.cache
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/obj/Debug/net6.0/AggregationLinq.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/obj/Debug/net6.0/ref/AggregationLinq.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/obj/Debug/net6.0/AggregationLinq.pdb
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_05/aula_02/AggregationLinq/obj/Debug/net6.0/AggregationLinq.genruntimeconfig.cache
