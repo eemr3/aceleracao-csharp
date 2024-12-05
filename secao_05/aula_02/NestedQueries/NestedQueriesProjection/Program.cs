@@ -32,10 +32,10 @@ class Program
                              select car
                     };
 
-    foreach (var carSportOver5M in carsSport)
+    foreach (var carSportOver30M in carsSport)
     {
-      Console.WriteLine("Categoria: " + carSportOver5M.Name);
-      foreach (var car in carSportOver5M.Cars!)
+      Console.WriteLine("Categoria: " + carSportOver30M.Name);
+      foreach (var car in carSportOver30M.Cars!)
       {
         Console.WriteLine($"\t {car.Brand} {car.Model} - Preço: R$ {car.Price}");
       }
