@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_06/aula_01/MyStoreApp/MyStoreApp.csproj": {}
+  },
+  "projects": {
+    "/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_06/aula_01/MyStoreApp/MyStoreApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_06/aula_01/MyStoreApp/MyStoreApp.csproj",
+        "projectName": "MyStoreApp",
+        "projectPath": "/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_06/aula_01/MyStoreApp/MyStoreApp.csproj",
+        "packagesPath": "/home/eemr3/.nuget/packages/",
+        "outputPath": "/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_06/aula_01/MyStoreApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eemr3/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.135/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
