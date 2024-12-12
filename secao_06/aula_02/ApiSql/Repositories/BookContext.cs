@@ -5,13 +5,14 @@ namespace ApiSql.Repositories;
 
 public class BookContext : DbContext
 {
-  public DbSet<Book> Books { get; set; }
-  public DbSet<Author> Authors { get; set; }
-  public DbSet<Publisher> Publishers { get; set; }
+  public DbSet<Book> Books { get; set; } = null!;
+  public DbSet<Author> Authors { get; set; } = null!;
+  public DbSet<Publisher> Publishers { get; set; } = null!;
 
   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
   {
-    optionsBuilder.UseSqlServer(@"Server=127.0.0.1;Database=bookstore;User=sa;Password=1q2w3e4r@#$;TrustServerCertificate=True;");
+    string connectionString = "Server=127.0.0.1;Database=bookstore;User=sa;Password=1q2w3e4r@#$;TrustServerCertificate=True;";
+    optionsBuilder.UseSqlServer(connectionString);
   }
 
   protected override void OnModelCreating(ModelBuilder modelBuilder)

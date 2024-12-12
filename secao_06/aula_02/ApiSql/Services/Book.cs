@@ -14,7 +14,7 @@ public class BookService : IBookService
     _repository = repository;
   }
 
-  public async Task<Book> AddBookAsync(BookDTO bookDto)
+  public async Task<Book> AddBookAsync(Book bookDto)
   {
     var book = new Book
     {
@@ -26,12 +26,12 @@ public class BookService : IBookService
       Genre = bookDto.Genre,
       Author = new Author
       {
-        Name = bookDto.Author.Name,
-        Email = bookDto.Author.Email
+        Name = bookDto?.Author?.Name,
+        Email = bookDto?.Author?.Email
       },
       Publisher = new Publisher
       {
-        Name = bookDto.Publisher.Name
+        Name = bookDto?.Publisher?.Name
       }
 
     };
@@ -39,9 +39,9 @@ public class BookService : IBookService
     return await _repository.AddBookAsync(book);
   }
 
-  public Book GetBookIdAsync(int bookId)
+  public async Task<BookDTO> GetBookIdAsync(int bookId)
   {
-    return _repository.GetBookId(bookId);
+    return await _repository.GetBookId(bookId);
   }
 
   public List<Book> GetBooks()

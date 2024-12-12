@@ -1,5 +1,4 @@
 namespace ApiSql.Controller;
-using ApiSql.DTO;
 using ApiSql.Models;
 using ApiSql.Services.interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -16,7 +15,7 @@ public class BookController : ControllerBase
   }
 
   [HttpPost]
-  public async Task<IActionResult> AddBook([FromBody] BookDTO bookDto)
+  public async Task<IActionResult> AddBook([FromBody] Book bookDto)
   {
     await _service.AddBookAsync(bookDto);
 
@@ -25,11 +24,11 @@ public class BookController : ControllerBase
   }
 
   [HttpGet("{bookId}")]
-  public IActionResult GetBookId(int bookId)
+  public async Task<IActionResult> GetBookId(int bookId)
   {
     try
     {
-      var book = _service.GetBookIdAsync(bookId);
+      var book = await _service.GetBookIdAsync(bookId);
 
       return Ok(book);
     }

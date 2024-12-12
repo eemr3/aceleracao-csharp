@@ -5,8 +5,8 @@ namespace ApiSql.Services.interfaces;
 
 public interface IBookService
 {
-  public Task<Book> AddBookAsync(BookDTO bookDto);
-  public Book GetBookIdAsync(int bookId);
+  public Task<Book> AddBookAsync(Book bookDto);
+  public Task<BookDTO> GetBookIdAsync(int bookId);
 
   public List<Book> GetBooks();
 }

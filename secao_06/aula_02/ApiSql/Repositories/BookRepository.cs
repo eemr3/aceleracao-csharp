@@ -1,3 +1,4 @@
+using ApiSql.DTO;
 using ApiSql.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,12 +20,26 @@ public class BookRepository
     return books;
   }
 
-  public Book GetBookId(int id)
+  public async Task<BookDTO> GetBookId(int id)
   {
-    return _context.Books.Where(e => e.BookId == id)
-          .Include(e => e.Author)
-          .Include(e => e.Publisher)
-          .First();
+    var book = await _context.Books.Include(b => b.Author)
+        .Include(b => b.Publisher)
+        .Where(b => b.BookId == id)
+        .FirstOrDefaultAsync();
+
+    if (book == null) throw new KeyNotFoundException($"Book with ID {id} not found!");
+
+    return new BookDTO
+    {
+      BookId = book.BookId,
+      Title = book.Title,
+      Description = book.Description,
+      Year = book.Year,
+      Genre = book.Genre,
+      Pages = book.Pages,
+      AuthorName = book.Author?.Name,
+      PublisherName = book.Publisher?.Name
+    };
   }
   public async Task<Book> AddBookAsync(Book book)
   {
