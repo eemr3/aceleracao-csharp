@@ -44,8 +44,8 @@ public class BookService : IBookService
     return await _repository.GetBookId(bookId);
   }
 
-  public List<Book> GetBooks()
+  public async Task<IEnumerable<BookDTO>> GetBooks()
   {
-    return _repository.GetBookList();
+    return await _repository.GetBookList();
   }
 }

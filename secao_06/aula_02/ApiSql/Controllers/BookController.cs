@@ -39,9 +39,9 @@ public class BookController : ControllerBase
   }
 
   [HttpGet]
-  public IActionResult GetAllBooks()
+  public async Task<IActionResult> GetAllBooks()
   {
-    var books = _service.GetBooks();
+    var books = await _service.GetBooks();
 
     return Ok(books);
   }

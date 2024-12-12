@@ -13,11 +13,26 @@ public class BookRepository
     _context = context;
   }
 
-  public List<Book> GetBookList()
+  public async Task<IEnumerable<BookDTO>> GetBookList()
   {
-    var books = _context.Books.ToList();
+    var books = await _context.Books
+        .Include(b => b.Author)
+        .Include(b => b.Publisher)
+        .ToListAsync();
 
-    return books;
+    var response = books.Select(book => new BookDTO
+    {
+      BookId = book.BookId,
+      Title = book.Title,
+      Description = book.Description,
+      Year = book.Year,
+      Pages = book.Pages,
+      Genre = book.Genre,
+      AuthorName = book.Author?.Name,
+      PublisherName = book.Publisher?.Name
+    });
+
+    return response;
   }
 
   public async Task<BookDTO> GetBookId(int id)
