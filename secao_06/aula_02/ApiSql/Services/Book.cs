@@ -14,7 +14,7 @@ public class BookService : IBookService
     _repository = repository;
   }
 
-  public async Task<Book> AddBookAsync(Book bookDto)
+  public async Task<BookDTO> AddBookAsync(Book bookDto)
   {
     var book = new Book
     {

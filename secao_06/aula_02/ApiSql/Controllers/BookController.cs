@@ -17,10 +17,10 @@ public class BookController : ControllerBase
   [HttpPost]
   public async Task<IActionResult> AddBook([FromBody] Book bookDto)
   {
-    await _service.AddBookAsync(bookDto);
+    var book = await _service.AddBookAsync(bookDto);
 
     // return CreatedAtAction(nameof(GetBookId), new { id = book.BookId }, book);
-    return StatusCode(201, "Book created succefuly!");
+    return Created("GetBookId", book);
   }
 
   [HttpGet("{bookId}")]

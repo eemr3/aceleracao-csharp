@@ -56,7 +56,7 @@ public class BookRepository
       PublisherName = book.Publisher?.Name
     };
   }
-  public async Task<Book> AddBookAsync(Book book)
+  public async Task<BookDTO> AddBookAsync(Book book)
   {
     if (book == null)
       throw new ArgumentNullException(nameof(book));
@@ -64,6 +64,16 @@ public class BookRepository
     await _context.Books.AddAsync(book);
     await _context.SaveChangesAsync();
 
-    return book;
+    return new BookDTO
+    {
+      BookId = book.BookId,
+      Title = book.Title,
+      Description = book.Description,
+      Year = book.Year,
+      Pages = book.Pages,
+      Genre = book.Genre,
+      AuthorName = book.Author?.Name,
+      PublisherName = book.Publisher?.Name
+    };
   }
 }
