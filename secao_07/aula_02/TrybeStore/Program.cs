@@ -20,6 +20,7 @@ builder.Configuration.AddJsonFile("appsettings.Development.json", optional: true
 builder.Services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IDatabaseContext, DatabaseContext>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -57,6 +58,7 @@ builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("Admin", policy => policy.RequireClaim(ClaimTypes.Role, "Admin"));
     options.AddPolicy("Supervisor", policy => policy.RequireClaim(ClaimTypes.Role, "Supervisor"));
+    options.AddPolicy("Gerente", policy => policy.RequireClaim(ClaimTypes.Role, "Gerente"));
 });
 
 var app = builder.Build();

@@ -4,7 +4,7 @@ using TrybeStore.Models;
 
 namespace TrybeStore.Repositories;
 
-public class CategoryRepository
+public class CategoryRepository : ICategoryRepository
 {
   private readonly IDatabaseContext _context;
 
@@ -43,4 +43,5 @@ public class CategoryRepository
 
     _context.Categories.Remove(categoryExists);
   }
+
 }
