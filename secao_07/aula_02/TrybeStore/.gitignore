@@ -406,3 +406,5 @@ FodyWeavers.xsd
 
 # Segurança keys
 appsettings.Development.json
+
+.env
