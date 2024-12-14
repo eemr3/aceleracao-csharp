@@ -29,7 +29,7 @@ public class UserRepository : IUserRepository
   {
     var user = await _context.Users.Where(user => user.Email == email).FirstOrDefaultAsync();
 
-    if (user == null) throw new KeyNotFoundException($"Email address or password provided is incorrect.");
+    if (user == null) throw new UnauthorizedException("Email address or password provided is incorrect.");
 
     return user;
   }
