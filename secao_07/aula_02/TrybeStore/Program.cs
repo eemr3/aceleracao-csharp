@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using TrybeStore.Data;
+using TrybeStore.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Configuration.AddJsonFile("appsettings.Development.json", optional: true, reloadOnChange: true);
 builder.Services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IDatabaseContext, DatabaseContext>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 
