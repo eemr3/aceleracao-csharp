@@ -1,4 +1,6 @@
+using System.Security.Claims;
 using System.Text;
+using System.Text.Json;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -35,6 +37,26 @@ builder.Services.AddAuthentication(options =>
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SecretKey"]))
     };
+    // Configurando mensagem de erro padrão para não autorizado (mensagem customizada)
+    options.Events = new JwtBearerEvents
+    {
+        OnChallenge = context =>
+        {
+            context.HandleResponse();
+            context.Response.StatusCode = 401;
+            context.Response.ContentType = "application/json";
+            var errorMessage = new { error = "User Unauthorized", details = "You must provide a valid token to access this resource" }; var jsonErrorMessage =
+            JsonSerializer.Serialize(errorMessage);
+            return context.Response.WriteAsync(jsonErrorMessage);
+        }
+    };
+});
+
+// Configuração de autorização/permisão
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Admin", policy => policy.RequireClaim(ClaimTypes.Role, "Admin"));
+    options.AddPolicy("Supervisor", policy => policy.RequireClaim(ClaimTypes.Role, "Supervisor"));
 });
 
 var app = builder.Build();

@@ -15,7 +15,7 @@ public class UserRepository : IUserRepository
   }
   public async Task<User> AddUserAsync(User user)
   {
-    var userExists = await _context.Users.Where(user => user.Email == user.Email).FirstOrDefaultAsync();
+    var userExists = await _context.Users.Where(u => u.Email == user.Email).FirstOrDefaultAsync();
 
     if (userExists != null) throw new ConflictException("A user with this email already exists.");
 

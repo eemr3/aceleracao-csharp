@@ -1,7 +1,10 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TrybeStore.Exceptions;
 using TrybeStore.Models;
 using TrybeStore.Repositories;
+using TrybeStore.Services;
 
 namespace TrybeStore.Controllers;
 
@@ -10,10 +13,11 @@ namespace TrybeStore.Controllers;
 public class UserController : ControllerBase
 {
   private readonly IUserRepository _repository;
-
-  public UserController(IUserRepository repository)
+  private readonly TokenGenerator _tokenGenerator;
+  public UserController(IUserRepository repository, IConfiguration configuration)
   {
     _repository = repository;
+    _tokenGenerator = new TokenGenerator(configuration);
   }
 
   [HttpPost]
@@ -22,8 +26,9 @@ public class UserController : ControllerBase
     try
     {
       var userCreated = await _repository.AddUserAsync(userReq);
+      var token = _tokenGenerator.Generate(userReq);
 
-      return Created("", userCreated);
+      return Created("", new { access_token = token, name = userCreated.Name });
     }
     catch (ConflictException err)
     {
@@ -36,6 +41,9 @@ public class UserController : ControllerBase
     }
   }
 
+
+  [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+  [Authorize]
   [HttpGet("{userId}")]
   public async Task<IActionResult> GetUserByEmail(int userId)
   {
