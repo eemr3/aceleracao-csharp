@@ -23,6 +23,13 @@ public class NotFoundExceptionFilter : ExceptionFilterAttribute
       };
       context.ExceptionHandled = true;
     }
+    else
+    {
+      context.Result = new ObjectResult(new { message = "An unexpected error occurred." })
+      {
+        StatusCode = 500
+      };
+    }
 
     base.OnException(context);
   }
