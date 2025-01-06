@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PgaI8t39mPXWVZndUCY49UF9BAwZuJXXN3s7wJMFNdo=",
+  "Source": "ServicoExternoApi",
+  "BasePath": "_content/ServicoExternoApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
