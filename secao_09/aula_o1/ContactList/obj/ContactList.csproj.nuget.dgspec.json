@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_09/aula_o1/ContactList/ContactList.csproj": {}
+  },
+  "projects": {
+    "/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_09/aula_o1/ContactList/ContactList.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_09/aula_o1/ContactList/ContactList.csproj",
+        "projectName": "ContactList",
+        "projectPath": "/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_09/aula_o1/ContactList/ContactList.csproj",
+        "packagesPath": "/home/eemr3/.nuget/packages/",
+        "outputPath": "/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_09/aula_o1/ContactList/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eemr3/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions.AspNetCore.MVC": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
