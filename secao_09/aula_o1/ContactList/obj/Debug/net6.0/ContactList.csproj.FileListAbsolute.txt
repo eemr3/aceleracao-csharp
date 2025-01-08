@@ -88,3 +88,7 @@
 /home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_09/aula_o1/ContactList/obj/Debug/net6.0/ContactList.pdb
 /home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_09/aula_o1/ContactList/obj/Debug/net6.0/ContactList.genruntimeconfig.cache
 /home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_09/aula_o1/ContactList/obj/Debug/net6.0/ref/ContactList.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_09/aula_o1/ContactList/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_09/aula_o1/ContactList/bin/Debug/net6.0/MySqlConnector.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_09/aula_o1/ContactList/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/eemr3/projetos/trybe/aceleracao-csharp/aulas/secao_09/aula_o1/ContactList/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.Design.dll
