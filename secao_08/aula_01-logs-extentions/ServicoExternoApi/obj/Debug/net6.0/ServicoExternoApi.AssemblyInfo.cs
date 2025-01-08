@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServicoExternoApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8763dffd8c6bd3568428a7b08c09cce3fbb27ad4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServicoExternoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServicoExternoApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

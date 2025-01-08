@@ -1,3 +1,5 @@
+using System.Net.Http.Headers;
+
 namespace ServicoExternoApi.Infra.Apiclient;
 
 public class ViaCepClient : IViaCepClient
@@ -8,6 +10,9 @@ public class ViaCepClient : IViaCepClient
   {
     _httpClient = httpClient;
     _httpClient.BaseAddress = new Uri(_baseUrl);
+
+    _httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+    _httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("aspnet-user-agent");
   }
   public async Task<object> GetCepAsync(string cep)
   {
