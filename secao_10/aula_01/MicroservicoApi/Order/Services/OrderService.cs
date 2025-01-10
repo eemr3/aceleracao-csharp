@@ -1,3 +1,4 @@
+using System.Globalization;
 using Order.DTO;
 using Order.Models;
 using Order.Repositories;
@@ -15,10 +16,12 @@ public class OrderService : IOrderService
 
   public async Task<OrderEntity> AddOrderAsync(OrderDtoRequest orderDto)
   {
+    var date = DateTime.ParseExact(orderDto.OrderDate, "dd/MM/yyyy", CultureInfo.InvariantCulture).ToUniversalTime();
+
     var orderAdd = await _respository.AddOrderAsync(new OrderEntity
     {
       CustomerId = orderDto.CustomerId,
-      OrderDate = orderDto.OrderDate,
+      OrderDate = date,
       Amount = orderDto.Amount
     });
 
@@ -43,7 +46,7 @@ public class OrderService : IOrderService
     return order;
   }
 
-  public async Task<IEnumerable<OrderEntity>> GetOrdersdAsync()
+  public async Task<IEnumerable<OrderEntity>> GetOrdersAsync()
   {
     return await _respository.GetOrders();
   }
