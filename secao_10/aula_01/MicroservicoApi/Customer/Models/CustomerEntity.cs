@@ -5,6 +5,7 @@ namespace Customer.Models;
 public class CustomerEntity
 {
   public int CustomerId { get; set; }
+
   [Required]
   public string Name { get; set; } = null!;
   [Required]

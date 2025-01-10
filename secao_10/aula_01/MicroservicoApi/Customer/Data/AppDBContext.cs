@@ -5,7 +5,7 @@ namespace Customer.Data;
 
 public class AppDBContext : DbContext
 {
-  DbSet<CustomerEntity> Customers { get; set; } = null!;
+  public DbSet<CustomerEntity> Customers { get; set; } = null!;
 
   public AppDBContext(DbContextOptions<AppDBContext> options) : base(options) { }
 
