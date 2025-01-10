@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Order.Data;
 using Order.Filters;
 using Order.Repositories;
+using Order.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AppDBContext>(option => option.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 var app = builder.Build();
 
