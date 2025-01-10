@@ -20,20 +20,20 @@ public class OrderRepository : IOrderRepository
     return orderAdd.Entity;
   }
 
-  public async Task<IEnumerable<OrderEntity>> GetOrdersByCustomerIdAsync(int customerId)
+  public async Task<IEnumerable<OrderEntity>?> GetOrdersByCustomerIdAsync(int customerId)
   {
     var orders = await _context.Orders.Where(order => order.CustomerId.Equals(customerId)).ToListAsync();
 
-    if (orders is null) throw new KeyNotFoundException($"Os pedidos do cliente de ID {customerId} não foi encontrado.");
+    if (orders is null) return null;
 
     return orders;
   }
 
-  public async Task<OrderEntity> GetOrderByIdAsync(int orderId)
+  public async Task<OrderEntity?> GetOrderByIdAsync(int orderId)
   {
     var order = await _context.Orders.FindAsync(orderId);
 
-    if (order is null) throw new KeyNotFoundException($"O pedido com ID {orderId} não foi encontrado");
+    if (order is null) return null;
 
     return order;
   }
