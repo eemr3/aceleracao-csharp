@@ -1,6 +1,7 @@
 using Customer.Data;
 using Customer.Filters;
 using Customer.Repositories;
+using Customer.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,7 @@ builder.Services.AddDbContext<AppDBContext>(options =>
     .GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
 
 var app = builder.Build();
 

@@ -1,6 +1,6 @@
 using Customer.DTO;
 using Customer.Filters;
-using Customer.Repositories;
+using Customer.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Customer.Controllers;
@@ -10,17 +10,17 @@ namespace Customer.Controllers;
 [TypeFilter(typeof(CustomExceptionsFilter))]
 public class CustomerController : ControllerBase
 {
-  private readonly ICustomerRepository _repository;
+  private readonly ICustomerService _service;
 
-  public CustomerController(ICustomerRepository repository)
+  public CustomerController(ICustomerService service)
   {
-    _repository = repository;
+    _service = service;
   }
 
   [HttpPost]
   public async Task<IActionResult> AddCustomer([FromBody] CustomerDtoRequest customer)
   {
-    var customerAdd = await _repository.AddCustomer(customer);
+    var customerAdd = await _service.AddCustomer(customer);
 
     return Created("", customerAdd);
   }
@@ -28,7 +28,7 @@ public class CustomerController : ControllerBase
   [HttpGet]
   public async Task<IActionResult> GetCustomers()
   {
-    var customers = await _repository.GetCustomers();
+    var customers = await _service.GetCustomers();
 
     return Ok(customers);
   }
@@ -36,7 +36,7 @@ public class CustomerController : ControllerBase
   [HttpGet("{id}")]
   public async Task<IActionResult> GetCustomerById(int id)
   {
-    var customer = await _repository.GetCustomerById(id);
+    var customer = await _service.GetCustomerById(id);
 
     return Ok(customer);
   }
