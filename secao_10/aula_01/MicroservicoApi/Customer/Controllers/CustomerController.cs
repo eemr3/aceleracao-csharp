@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Customer.Controllers;
 
 [ApiController]
-[Route("customers")]
+[Route("api/customers")]
 [TypeFilter(typeof(CustomExceptionsFilter))]
 public class CustomerController : ControllerBase
 {

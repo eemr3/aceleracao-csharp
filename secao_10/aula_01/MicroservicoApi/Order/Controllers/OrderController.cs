@@ -6,7 +6,7 @@ using Order.Services;
 namespace Order.Controllers;
 
 [ApiController]
-[Route("orders")]
+[Route("api/orders")]
 [TypeFilter(typeof(CustomExceptionsFilter))]
 public class OrderController : ControllerBase
 {
