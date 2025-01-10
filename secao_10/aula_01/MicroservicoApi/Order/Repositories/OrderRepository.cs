@@ -16,6 +16,7 @@ public class OrderRepository : IOrderRepository
   public async Task<OrderEntity> AddOrderAsync(OrderEntity order)
   {
     var orderAdd = await _context.AddAsync(order);
+    await _context.SaveChangesAsync();
 
     return orderAdd.Entity;
   }
