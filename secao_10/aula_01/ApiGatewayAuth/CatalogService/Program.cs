@@ -2,6 +2,7 @@ using CatalogService.Data;
 using CatalogService.Filters;
 using CatalogService.Repositories;
 using CatalogService.Services;
+using JwtTokenAuthentication;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddJwtAuthentication();
 
 var app = builder.Build();
 
