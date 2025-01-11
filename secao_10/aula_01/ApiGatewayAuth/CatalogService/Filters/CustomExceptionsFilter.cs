@@ -15,7 +15,7 @@ public class CustomExceptionsFilter : ExceptionFilterAttribute
   {
     if (context.Exception is KeyNotFoundException notFoundException)
     {
-      var respose = new
+      var response = new
       {
         StatusCode = 404,
         Error = "NotFound",
@@ -23,7 +23,7 @@ public class CustomExceptionsFilter : ExceptionFilterAttribute
         Timestamp = DateTime.UtcNow
       };
 
-      context.Result = new NotFoundObjectResult(respose);
+      context.Result = new NotFoundObjectResult(response);
       context.ExceptionHandled = true;
     }
     else

@@ -13,7 +13,7 @@ public class ProductService : IProductService
     _repository = repository;
   }
 
-  public Task<Product> AddProductAsync(ProductDtoRequest productDto)
+  public async Task<Product> AddProductAsync(ProductDtoRequest productDto)
   {
     var product = new Product
     {
@@ -22,7 +22,7 @@ public class ProductService : IProductService
       Price = productDto.Price
     };
 
-    return _repository.AddProductAsync(product);
+    return await _repository.AddProductAsync(product);
 
   }
 
