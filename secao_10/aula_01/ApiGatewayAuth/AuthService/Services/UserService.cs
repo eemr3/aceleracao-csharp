@@ -33,7 +33,9 @@ public class UserService : IUserService
   {
     var user = await _repository.GetUserByEmail(loginDto.Email!);
     if (user is null) throw new UnauthorizedAccessException("Email ou senha incorretos!");
-    if (passwordService.VerifyPassword(user.PasswordHash, loginDto.Password!)) throw new UnauthorizedAccessException("Email ou senha incorretos!");
+
+    var isValid = passwordService.VerifyPassword(user.PasswordHash, loginDto.Password!);
+    if (!isValid) throw new UnauthorizedAccessException("Email ou senha incorretos!");
 
     var token = tokenGenerator.Generator(user);
 
