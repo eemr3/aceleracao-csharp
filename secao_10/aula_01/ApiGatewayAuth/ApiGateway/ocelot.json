@@ -1,0 +1,58 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/register",
+      "UpstreamhttpsMethod": ["Post"],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/api/auth/register",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5137
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/login",
+      "UpstreamhttpsMethod": ["Post"],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/api/auth/login",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5137
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/register/product",
+      "UpstreamhttpsMethod": ["Post"],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/api/products",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5095
+        }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/products",
+      "UpstreamhttpsMethod": ["Get"],
+      "DownstreamScheme": "http",
+      "DownstreamPathTemplate": "/api/products",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5095
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5273"
+  }
+}
