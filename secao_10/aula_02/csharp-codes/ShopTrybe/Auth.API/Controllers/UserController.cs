@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Auth.API.Repository;
 using Auth.API.DTO;
 using Auth.API.Services;
+using Auth.API.Models;
 
 namespace Auth.API.Controllers;
 
@@ -10,9 +11,12 @@ namespace Auth.API.Controllers;
 public class UserController : Controller
 {
   private readonly IUserRepository _repository;
-  public UserController(IUserRepository repository)
+  private readonly INotificationService _notificationService;
+
+  public UserController(IUserRepository repository, INotificationService notificationService)
   {
     _repository = repository;
+    _notificationService = notificationService;
   }
 
   [HttpPost]
@@ -21,6 +25,18 @@ public class UserController : Controller
     try
     {
       var userCreated = _repository.Create(user);
+      var messageText = "<h4>Cadastro realizado com sucesso no ShopTrybe</h4>";
+      messageText += "<p>Olá: " + user.Name;
+      messageText += "<p>Boas vindas ao ShopTrybe</p>";
+
+      Message message = new Message
+      {
+        Title = "Shp Trybe - Cadastro realizado",
+        Text = messageText,
+        MailTo = user.Email
+      };
+      _notificationService.Send(message);
+
       return Created("", new { token = AuthService.GenerateToken(userCreated) });
     }
     catch (Exception ex)
