@@ -29,7 +29,7 @@ public class UserController : Controller
       messageText += "<p>Olá: " + user.Name;
       messageText += "<p>Boas vindas ao ShopTrybe</p>";
 
-      Message message = new Message
+      Message message = new()
       {
         Title = "Shp Trybe - Cadastro realizado",
         Text = messageText,

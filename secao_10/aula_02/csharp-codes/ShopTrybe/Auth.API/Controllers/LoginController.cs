@@ -33,7 +33,7 @@ public class LoginController : Controller
       messageText += "<br /> Data: " + dateTime + "</p>";
       messageText += "<p> Caso não reconheça este login, revise seus dados de autenticação.</p>";
 
-      Message message = new Message
+      Message message = new()
       {
         Title = "Shop Trybe - Novo login",
         Text = messageText,
