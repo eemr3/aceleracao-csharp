@@ -7,10 +7,10 @@ namespace Notification.Service.Services;
 
 public class EmailService : MailMessage
 {
-  private static readonly string EMAIL_HOST = "smtp.gmail.com";
-  private static readonly string EMAIL_FROM = "eemr3.2607@gmail.com";
-  private static readonly string EMAIL_PASSWORD = "kwzn grub ybgg buni";
-
+  private static readonly string EMAIL_HOST = Environment.GetEnvironmentVariable("EMAIL_HOST");
+  private static readonly string EMAIL_FROM = Environment.GetEnvironmentVariable("EMAIL_FROM");
+  private static readonly string EMAIL_PASSWORD = Environment.GetEnvironmentVariable("EMAIL_PASSWORD");
+  private static readonly int SMTP_PORT = Convert.ToInt32(Environment.GetEnvironmentVariable("EMAIL_PORT"));
   public static void Send(Message message)
   {
     try
@@ -18,7 +18,14 @@ public class EmailService : MailMessage
       using (var msgMail = new MailMessage())
       {
         msgMail.From = new MailAddress(EMAIL_FROM);
-        msgMail.To.Add(new MailAddress(message.MailTo));
+        if (!string.IsNullOrEmpty(message.MailTo))
+        {
+          msgMail.To.Add(new MailAddress(message.MailTo));
+        }
+        else
+        {
+          throw new ArgumentNullException(nameof(message.MailTo), "MailTo cannot be null or empty.");
+        }
 
         msgMail.Subject = message.Title;
         msgMail.Body = message.Text;
@@ -29,7 +36,7 @@ public class EmailService : MailMessage
         using (var smtpClient = new SmtpClient())
         {
           smtpClient.Host = EMAIL_HOST;
-          smtpClient.Port = 587;
+          smtpClient.Port = SMTP_PORT;
           smtpClient.EnableSsl = true;
           smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
           smtpClient.Credentials = new NetworkCredential(EMAIL_FROM, EMAIL_PASSWORD);

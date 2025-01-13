@@ -10,6 +10,11 @@ public static class AuthService
 
   public static string GenerateToken(UserResponseDTO user)
   {
+    var secretKey = Environment.GetEnvironmentVariable("JWT_SECRET_KEY");
+    if (string.IsNullOrEmpty(secretKey))
+    {
+      throw new InvalidOperationException("JWT_SECRET_KEY environment variable is not set.");
+    }
     var claims = new ClaimsIdentity();
     claims.AddClaim(new Claim(ClaimTypes.Email, user.Email!));
 
@@ -18,7 +23,7 @@ public static class AuthService
     {
       Subject = claims,
       SigningCredentials = new SigningCredentials(
-            new SymmetricSecurityKey(Encoding.ASCII.GetBytes("4d82a63bbdc67c1e4784ed6587f3730c")),
+            new SymmetricSecurityKey(Encoding.ASCII.GetBytes(secretKey)),
             SecurityAlgorithms.HmacSha256Signature
         ),
       Expires = DateTime.Now.AddHours(6)

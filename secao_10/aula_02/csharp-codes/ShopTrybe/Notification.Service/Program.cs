@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using DotNetEnv;
 using Newtonsoft.Json;
 using Notification.Service.Models;
 using Notification.Service.Services;
@@ -13,10 +14,13 @@ public class Program
 
   public static void Main(string[] args)
   {
+    Env.Load(Path.Combine(Directory.GetCurrentDirectory(), ".env"));
+
   Inicio:
     try
     {
-      var factory = new ConnectionFactory { HostName = "localhost" };
+      var messageBrokerHost = Environment.GetEnvironmentVariable("MESSAGE_BROKER_HOST");
+      var factory = new ConnectionFactory { HostName = messageBrokerHost };
       using var connetion = factory.CreateConnection();
       using var channel = connetion.CreateModel();
       channel.QueueDeclare(queue: "notification",

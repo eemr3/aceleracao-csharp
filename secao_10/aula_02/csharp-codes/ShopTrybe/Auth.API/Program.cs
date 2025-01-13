@@ -1,11 +1,13 @@
 using Auth.API.Context;
 using Auth.API.Repository;
 using Auth.API.Services;
+using DotNetEnv;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+Env.Load(Path.Combine(Directory.GetCurrentDirectory(), ".env"));
 
+// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddDbContext<DatabaseContext>();
 builder.Services.AddScoped<IDatabaseContext, DatabaseContext>();
