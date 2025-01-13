@@ -27,7 +27,7 @@ public class LoginController : Controller
     {
       var userLogged = _repository.Login(user);
       var UserAgent = HttpContext.Request.Headers.UserAgent;
-      var dateTime = DateTime.UtcNow.ToString("dd/MM/yyyy HH:mm:ss");
+      var dateTime = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
       var messageText = "<h4>Novo login realizado no ShopTrybe </h4>";
       messageText += "<p> Origem: " + UserAgent;
       messageText += "<br /> Data: " + dateTime + "</p>";
