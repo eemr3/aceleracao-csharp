@@ -18,6 +18,15 @@ builder.Services.AddScoped<INotificationService, NotificationService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var port = Environment.GetEnvironmentVariable("APIPORT");
+if (string.IsNullOrEmpty(port))
+{
+    throw new Exception("APIPORT is not configured.");
+}
+Console.WriteLine($"Using port: {port}");
+
+builder.WebHost.UseUrls($"http://*:{port}");
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

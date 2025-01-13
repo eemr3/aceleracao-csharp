@@ -10,13 +10,12 @@ public class DatabaseContext : DbContext, IDatabaseContext
   {
     if (!optionsBuilder.IsConfigured)
     {
-      var server = Environment.GetEnvironmentVariable("DBSERVER");
-      var database = Environment.GetEnvironmentVariable("DBNAME");
-      var dbuser = Environment.GetEnvironmentVariable("DBUSER");
-      var dbpass = Environment.GetEnvironmentVariable(" ");
-      var connectionString = "Server=" + server + ";Database=" + database + ";User=" + dbuser + ";Password=" + dbpass + ";TrustServerCertificate=True";
-      // var connectionString = "Server=localhost;Database=ShopTrybe;User=SA;Password=ShopTrybe123!;TrustServerCertificate=True";
-      optionsBuilder.UseSqlServer(connectionString);
+      var connectionString = Environment.GetEnvironmentVariable("STRING_CONNECTION");
+
+      optionsBuilder.UseSqlServer(connectionString, options =>
+      {
+        options.EnableRetryOnFailure();
+      });
     }
   }
 
