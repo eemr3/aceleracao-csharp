@@ -1,8 +1,11 @@
 ﻿using System.Text;
+using Serilog;
+using Serilog.Events;
 using DotNetEnv;
 using Newtonsoft.Json;
 using Notification.Service.Models;
 using Notification.Service.Services;
+using Notification.Service.Utils;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
@@ -14,6 +17,7 @@ public class Program
 
   public static void Main(string[] args)
   {
+    LogService.ConfigureLogger();
     Env.Load(Path.Combine(Directory.GetCurrentDirectory(), ".env"));
 
   Inicio:
@@ -40,6 +44,7 @@ public class Program
         try
         {
           EmailService.Send(message);
+          Log.Information("Mail sent");
           Console.WriteLine("Mail sent");
         }
         catch (Exception)

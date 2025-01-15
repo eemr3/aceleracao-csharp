@@ -10,13 +10,16 @@ namespace Auth.API.Controllers;
 [Route("user")]
 public class UserController : Controller
 {
+  private readonly ILogger<UserController> _logger;
   private readonly IUserRepository _repository;
   private readonly INotificationService _notificationService;
 
-  public UserController(IUserRepository repository, INotificationService notificationService)
+  public UserController(IUserRepository repository, INotificationService notificationService, ILogger<UserController> logger)
+
   {
     _repository = repository;
     _notificationService = notificationService;
+    _logger = logger;
   }
 
   [HttpPost]
@@ -36,11 +39,13 @@ public class UserController : Controller
         MailTo = user.Email
       };
       _notificationService.Send(message);
+      _logger.LogInformation("New user created!");
 
       return Created("", new { token = AuthService.GenerateToken(userCreated) });
     }
     catch (Exception ex)
     {
+      _logger.LogError(message: ex.Message.ToString(), ex);
       return BadRequest(new { message = ex.Message.ToString() });
     }
 

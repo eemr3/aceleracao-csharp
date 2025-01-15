@@ -27,6 +27,8 @@ services:
     build: ./Auth.API
     ports:
       - 5010:5010
+    volumes:
+      - ./logs:/Logs
     env_file:
       - ./Auth.API/.env
     environment:
@@ -42,6 +44,8 @@ services:
   notification.service:
     container_name: notification.service
     build: ./Notification.Service
+    volumes:
+      - ./logs:/Logs
     env_file:
       - ./Notification.Service/.env
     environment:
